@@ -1,0 +1,56 @@
+
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 25),
+                child: Container(
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 10),
+                    child: Row(
+                      children: [
+                        Text(
+                          'Uloga: ',
+                          style: TextStyle(
+                              fontSize: 16, fontWeight: FontWeight.bold),
+                        ),
+                        Spacer(),
+                        Padding(
+                          padding: const EdgeInsets.only(right: 180),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                color: Colors.white,
+                                border: Border.all(color: Colors.grey),
+                                borderRadius: BorderRadius.circular(12)),
+                            child: Padding(
+                              padding:
+                                  const EdgeInsets.symmetric(horizontal: 10),
+                              child: DropdownButtonHideUnderline(
+                                child: DropdownButton<String>(
+                                  value: _role,
+                                  items: ['Konobar', 'Kuhar', 'Admin']
+                                      .map((item) => DropdownMenuItem<String>(
+                                          value: item, child: Text(item)))
+                                      .toList(),
+                                  onChanged: (item) =>
+                                      setState(() => _role = item),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+
+
+
+              
+  Future deleteUser(String email) async {
+    await FirebaseFirestore.instance
+        .collection('users')
+        .doc(email)
+        .get()
+        .then((DocumentSnapshot snapshot) {
+      admin.auth().deleteUser(snapshot["uid"]);
+    });
+  }

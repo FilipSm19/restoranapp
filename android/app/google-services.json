@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "781111232273",
+    "project_id": "restoranapp-b8482",
+    "storage_bucket": "restoranapp-b8482.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781111232273:android:30ebf4376e13077882aeb0",
+        "android_client_info": {
+          "package_name": "com.smojver.restoranapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781111232273-6mjlkujmo5ejc6qg0pvrjipf1d91843e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnnTE7HbSe-Smyhg5FeTPnwLEfB8c5MNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781111232273-6mjlkujmo5ejc6qg0pvrjipf1d91843e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

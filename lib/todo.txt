@@ -1,0 +1,7 @@
+||||| DONE |||| 1. Roles :- Admin, Konobar, Kuhar 
+||||| DONE |||| -- add admin option: edit roles, edit accounts 
+||||| DONE |||| 2. Add 'traffic in restoran'
+||||| DONE |||| 3. Add 'meni'
+
+4. Add 'orders' for Konobar - updates stolove
+5. Add 'orders' for Kuhar

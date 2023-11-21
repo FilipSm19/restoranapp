@@ -1,0 +1,6 @@
+package com.RestoranApp
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

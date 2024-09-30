@@ -40,3 +40,19 @@ The chef's role allows marking completed orders and automatically adding the mar
 
 The administrator role allows adding, editing, and deleting employee user accounts from the database, and has the option to view and use all the functionalities implemented for other roles.
 
+<div style="text-align: center;">
+<img src="https://github.com/user-attachments/assets/efdf2830-4ace-4b03-9e77-09b9d76ba9e1" width="400"/> <img src="https://github.com/user-attachments/assets/6fe3a1dc-00b0-47ba-b630-1cbdcf7446ee" width="270"/>
+
+<img src="https://github.com/user-attachments/assets/5a899b88-24d9-4145-91d2-b43982883c7a" width="400"/> <img src="https://github.com/user-attachments/assets/6c373398-49c7-4f71-91a8-3d2ce047220f" width="400"/>
+
+ <img src="https://github.com/user-attachments/assets/baa9db5a-e732-4d3b-964d-15941af85472" width="400"/> <img src="https://github.com/user-attachments/assets/1cd9bdbb-f9e8-4358-b786-5c09f277c50b" width="400"/>
+
+</div>
+
+
+
+
+
+
+
+Link: https://dabar.srce.hr/islandora/object/infri:1083

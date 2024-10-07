@@ -19,6 +19,8 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Restoran App',
         theme: ThemeData(
+            tabBarTheme: TabBarTheme(
+                labelColor: Colors.white, unselectedLabelColor: Colors.white70),
             progressIndicatorTheme: ProgressIndicatorThemeData(
                 color: Colors.lightGreen,
                 circularTrackColor: Colors.lightGreen.shade200,
@@ -26,14 +28,19 @@ class MyApp extends StatelessWidget {
             drawerTheme: const DrawerThemeData(
                 backgroundColor: Color.fromARGB(255, 248, 252, 218)),
             scaffoldBackgroundColor: const Color.fromARGB(255, 248, 252, 218),
-            appBarTheme:
-                const AppBarTheme(color: Color.fromARGB(255, 40, 110, 19)),
+            appBarTheme: const AppBarTheme(
+                foregroundColor: Colors.white,
+                color: Color.fromARGB(255, 40, 110, 19)),
             floatingActionButtonTheme: const FloatingActionButtonThemeData(
+                foregroundColor: Colors.white,
                 backgroundColor: Color.fromARGB(255, 48, 133, 23)),
             elevatedButtonTheme: ElevatedButtonThemeData(
                 style: ElevatedButton.styleFrom(
+                    foregroundColor: Colors.white,
                     backgroundColor: const Color.fromARGB(255, 48, 133, 23))),
-            buttonTheme: const ButtonThemeData(alignedDropdown: true)),
+            buttonTheme: const ButtonThemeData(
+              alignedDropdown: true,
+            )),
         home: const LoggedIn());
   }
 }

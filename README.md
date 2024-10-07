@@ -40,6 +40,21 @@ The chef's role allows marking completed orders and automatically adding the mar
 
 The administrator role allows adding, editing, and deleting employee user accounts from the database, and has the option to view and use all the functionalities implemented for other roles.
 
+## Download APK: https://github.com/FilipSm19/restoranapp/releases/tag/v1.0.0
+### Login information
+#### Konobar (Waiter) 
+email: `konobar@test.com`
+password: `konobar123`
+
+#### Kuhar (Chef) 
+email: `kuhar@test.com`
+password: `kuhar123`
+
+#### Administrator
+email: `admin@test.com`
+password: `admin123`
+
+
 <div style="text-align: center;">
 <img src="https://github.com/user-attachments/assets/efdf2830-4ace-4b03-9e77-09b9d76ba9e1" width="400"/> <img src="https://github.com/user-attachments/assets/6fe3a1dc-00b0-47ba-b630-1cbdcf7446ee" width="270"/>
 
